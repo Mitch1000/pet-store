@@ -1,0 +1,365 @@
+
+
+.leftNav {
+height:25px;
+padding-top :8px;
+border-left :1px solid #397cae;
+border-right:1px solid #397cae;
+border-bottom:1px solid #397cae;
+width : 200px;
+background:#eee;
+
+}
+
+.productContainer {
+/*width : auto;
+float:left;*/
+
+
+}
+
+.headerNavSelected{
+float:left;text-decoration:none;text-align:center; height:31px; line-height:31px; 
+border-bottom:1px solid #fff;border-right:1px solid #fff;border-left:1px solid #fff;
+background-color:#fff;color:#b52025;
+
+/*background-color:#b52025; color:#fff;*/
+
+padding:2px 5px 5px 5px;
+width : 215.5px;
+border-top:1px solid #397cae;
+text-align:center; height:25px; 
+vertical-align:central;
+text-decoration:none;/*padding:0px 10px 0 10px; margin:0px 4px 0 4px;*/
+text-align:center; height:31px; line-height:31px;
+font-weight:bold;
+
+
+}
+
+
+
+.CategoryTitle {
+    /*background:url(../Images/bgLightGreen.jpg;);*/
+    margin:20px 4px 20px 40px;
+    font-size:16px;
+
+
+}
+
+.productBox {
+    /*position:relative;*/
+    /*margin-left:40px;*/
+    height:310px;
+    width:180px;
+    float:left;
+    padding:2px 2px 2px 2px;
+    margin:4px 4px 4px 4px;
+    border :1px solid #D3D3D3;
+}
+
+.linkButton {
+width : 100px ;
+margin-left:20px;
+padding:4px 4px 4px 4px;
+text-align:center; height:25px; 
+vertical-align:central;
+text-decoration:none;/*padding:0px 10px 0 10px; margin:0px 4px 0 4px;*/
+text-align:center; height:31px; line-height:31px;
+font-weight:bold; color:#fff;
+background-color:#b52025;
+}
+.productTitle{
+
+}
+
+
+.current{
+float:left;text-decoration:none;padding:0px 10px 0 10px; margin:0px 4px 0 4px;color:#fff;text-align:center; height:31px; line-height:31px; background-color:#b52025;
+}
+
+.NavCurrent{
+/*float:left;text-decoration:none;padding:0px 10px 0 10px; margin:0px 4px 0 4px;color:#fff;text-align:center; height:31px; line-height:31px; background-color:#b52025;*/
+
+width : 180px ;
+margin-left:20px;
+margin-top: 20px;
+text-align:center; height:25px; 
+vertical-align:central;
+text-decoration:none;/*padding:0px 10px 0 10px; margin:0px 4px 0 4px;*/
+text-align:center; height:31px; line-height:31px;
+font-weight:bold; color:#fff;
+background-color:#b52025;
+}
+
+.aNavSelected {
+    color:#fff; text-decoration:none;
+}
+
+
+.headProfileNav {
+
+padding:2px 5px 5px 5px;
+width : 290px;
+float:left;
+border-left :1px solid #397cae;
+border-right:1px solid #397cae;
+border-bottom:1px solid #397cae;
+border-top:1px solid #397cae;
+text-align:center; height:25px; 
+vertical-align:central;
+text-decoration:none;/*padding:0px 10px 0 10px; margin:0px 4px 0 4px;*/
+text-align:center; height:31px; line-height:31px;
+font-weight:bold;
+background:#eee; color:black;
+}
+
+
+.headProfileNavSelected{
+float:left;text-decoration:none;text-align:center; height:31px; line-height:31px; 
+border-bottom:1px solid #fff;border-right:1px solid #fff;border-left:1px solid #fff;
+background-color:#fff;color:#b52025;
+
+/*background-color:#b52025; color:#fff;*/
+
+padding:2px 5px 5px 5px;
+width : 294px;
+border-top:1px solid #397cae;
+text-align:center; height:25px; 
+vertical-align:central;
+text-decoration:none;/*padding:0px 10px 0 10px; margin:0px 4px 0 4px;*/
+text-align:center; height:31px; line-height:31px;
+font-weight:bold;
+
+
+}
+
+
+.center_pet_pages{
+width : 700px;
+float:left;
+padding-left:10px;
+background:url(../Images/center_bg_pages.gif) no-repeat center top;
+}
+
+
+.pet-application-form{
+width:600px;
+float:left;
+padding:20px 20px 10px 15px;
+}
+
+
+.pet_regform{
+width:600px;
+height:auto;
+float:left;
+padding:20px 10px 10px 20px;
+border:1px #fdeaeb solid;
+}
+
+.PetregLavel{
+width:50px;
+float:left;
+padding:20px 10px 10px 10px;
+color:#b52025;
+text-align:right;
+font-weight:bold;
+}
+
+input.submit_margin{
+background-color:#b52025;
+color:#FFFFFF;
+text-align:center;
+float:left;
+padding:3px 10px 2px 10px;
+margin:0px 0 0 0px;
+border:1px #b52025 solid;
+cursor:pointer;
+
+}
+
+.vetform{
+width:800px;
+/*float:left;*/
+margin: 0px auto; 
+padding:20px 20px 10px 15px;
+}
+
+
+.bookappointmentblock 
+{
+padding-bottom:5%;
+padding-top:10%;
+}
+
+.vetspaddingmod 
+{
+ padding-top:10%;
+}
+
+.info 
+{
+display:inline-block;
+width: 250px;
+height: auto;
+padding-left:3%;
+padding-top:1%;
+}  
+       
+.map
+{
+display:inline-block;
+width: 500px;
+height: 590px;
+margin: 5px;        
+}
+
+.filldate{
+float:left;
+color:#b52025;
+text-align:left;
+font-weight:bold;
+}
+
+
+.Level {
+
+padding:10px 0px 10px 0px;
+color:#b52025;
+text-align:center;
+font-weight:bold;
+font-size:15px;
+}
+
+
+.ChecKListLevel {
+
+padding:0px 0px 10px 0px;
+color:#b52025;
+text-align:center;
+font-weight:bold;
+font-size:15px;
+}
+
+
+.eachLevel {
+
+padding:10px 4px 10px 10px;
+font-size:13px;
+ border:1px #dcdcdc solid;
+
+}
+
+
+
+.NavRegCurrent{
+/*float:left;text-decoration:none;padding:0px 10px 0 10px; margin:0px 4px 0 4px;color:#fff;text-align:center; height:31px; line-height:31px; background-color:#b52025;*/
+
+width : 180px ;
+margin-left:20px;
+margin-top: 20px;
+text-align:center; height:25px; 
+vertical-align:central;
+text-decoration:none;/*padding:0px 10px 0 10px; margin:0px 4px 0 4px;*/
+text-align:center; height:31px; line-height:31px;
+font-weight:bold; 
+background-color:White;
+}
+
+
+
+
+
+
+
+.regform{
+width:900px;
+height:auto;
+float:left;
+padding:20px 10px 10px 20px;
+border:1px #fdeaeb solid;
+}
+.regform_row{
+width:900px;
+float:left;
+clear:both;
+padding:7px 0 7px 0;
+}
+
+.regLavel{
+width:200px;
+float:left;
+padding:20px 10px 10px 10px;
+color:#b52025;
+text-align:right;
+font-weight:bold;
+}
+
+.reg_input {
+
+background-color:#fdeaeb;
+border:1px #e2c7c8 solid;
+width:400px;
+height:30px;
+padding:4px;
+float:left;
+}
+
+.eachLevel {
+
+padding:10px 4px 10px 10px;
+font-size:13px;
+ border:1px #dcdcdc solid;
+
+}
+
+
+label{
+width:100px;
+float:left;
+padding:3px 15px 0 0;
+color:#b52025;
+text-align:right;
+font-weight:bold;
+}
+
+input.main_input{
+background-color:#fdeaeb;
+border:1px #e2c7c8 solid;
+width:300px;
+height:18px;
+padding:4px;
+float:left;
+}
+textarea.main_textarea{
+background-color:#fdeaeb;
+border:1px #e2c7c8 solid;
+width:300px;
+height:120px;
+padding:4px;
+float:left;
+}
+input.submit{
+background-color:#b52025;
+color:#FFFFFF;
+text-align:center;
+float:right;
+padding:3px 10px 2px 10px;
+margin:0px 0px 0 20px;
+border:1px #b52025 solid;
+cursor:pointer;
+}
+
+
+
+.eachLevel {
+
+padding:10px 4px 10px 10px;
+font-size:13px;
+ border:1px #dcdcdc solid;
+
+ background-color:#fdeaeb;
+
+}
+

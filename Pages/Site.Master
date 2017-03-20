@@ -1,0 +1,190 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="PetStore.Pages.Site"  %>
+
+<!DOCTYPE html>
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OSPS</title>
+     
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../css/custom.css" rel="stylesheet" type="text/css" />
+    <link href="../css/style_new.css" rel="stylesheet" type="text/css" />
+    <link rel="Shortcut Icon" href="../images/favicon.ico" />
+    <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />        
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic"  rel="stylesheet" type="text/css" />
+          
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="container">
+        <div id="logo">
+            <img src="../images/logo.jpg" alt="One Stop Pet Shop" /> 
+        </div>
+    </div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNav">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNav">
+    <ul class="nav navbar-nav">
+   <li  id="linavhome" runat="server"><a  href="home.aspx" id="navhome" runat="server" title="">Home</a></li>
+                   
+    <li class="dropdown"  id="linavproduct" runat="server" ><a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a id="ldog" runat="server" href="Products.aspx?MainCat=DOG" class="headNav"><span>DOG</span></a></li>
+            <li><a id="lcat" runat="server" href="Products.aspx?MainCat=CAT" class="headNav"><span>CAT</span></a></li>
+            <li><a id="lfish" runat="server" href="Products.aspx?MainCat=FISH" class="headNav"><span>FISH</span></a></li>
+            <li><a id="lbird" runat="server" href="Products.aspx?MainCat=BIRD" class="headNav"><span>BIRD</span></a></li>
+        </ul>
+    </li>
+
+ <li class="dropdown"  id="linavchecklist" runat="server" ><a href="checklist.aspx" class="dropdown-toggle" data-toggle="dropdown">CheckList <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a id="cdog" runat="server" href="checklist.aspx?pettype=DOG" class="headNav"><span>DOG</span></a></li>
+            <li><a id="ccat" runat="server" href="checklist.aspx?pettype=CAT" class="headNav"><span>CAT</span></a></li>
+            <li><a id="cfish" runat="server" href="checklist.aspx?pettype=FISH" class="headNav"><span>FISH</span></a></li>
+            <li><a id="cbird" runat="server" href="checklist.aspx?pettype=BIRD" class="headNav"><span>BIRD</span></a></li>
+        
+
+        </ul>
+    </li>
+
+    <li id="linavvet" runat="server"><a href="vet.aspx" id="navvet" runat="server" title="">Veterinary</a></li>
+    
+
+    <li class="dropdown"  id="linavmyaccount" runat="server" ><a  href="profile.aspx" id="navmyaccount" runat="server" class="dropdown-toggle" data-toggle="dropdown">My Page<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a id="lprofile" runat="server" href="profile.aspx" class="headNav"><span>PROFILE</span></a></li>
+            <li><a id="lpet" runat="server" href="pet.aspx" class="headNav"><span>PET</span></a></li>
+            <li><a id="lcalendar" runat="server" href="calendar.aspx" class="headNav"><span>CALENDAR</span></a></li>
+            <li><a id="lorderhistory" runat="server" href="orderhistory.aspx" class="headNav"><span>ORDER HISTORY</span></a></li>
+        
+        </ul>
+    </li>
+
+
+   <%-- <li id="linavregister" runat="server"><a href="profile.aspx"  id="navregister" runat="server" title="">Register</a></li>
+  --%>  <li id="linavcheckout" runat="server"><a href="checkout.aspx"  id="navcheckout" runat="server" title="">Check out</a></li>
+        <li  id="linavAdmin" runat="server"><a href="admin.aspx"  id="navAdmin" runat="server" title="">Admin</a></li>
+       
+        <li  id="linavlogin" runat="server" ><a href="login.aspx"  id="navlogin" runat="server"  title="">Login</a></li>
+         <li id="linavlogout" runat="server"><a href="login.aspx?logout=Y"  id="navlogout" runat="server"  title="">Logout</a></li>
+    </ul>
+    </div>
+    </div>   
+    </nav>
+
+          <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+             <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <!-- Modal -->
+   
+    <!-- Start Our Services -->
+  
+    <!-- /# Our Services -->
+    <!-- Slider -->
+   
+    <!-- footer -->
+    <footer id="footer" style="margin-top:30px;">
+		<!-- footer-widget-wrapper -->
+		<div class="footer-widget-wrapper">
+			<div class="container">
+				<div class="row">
+
+
+					<!-- footer-widget -->				
+					<div class="col-md-3 col-sm-6">
+						<div class="footer-widget twitter-widget">
+							<a href="checklist.aspx"><h1><span>OSPS</span> Commitment</h1></a>
+							
+							<p>We wish to build on our reputation as a company that really knows and cares about pets and to continue to grow as a company that is profitable, respected and positioned as one of the market leaders within pet retailing.
+                                 <br /><a href="#">Products</a> </p>
+						</div>
+					</div><!-- footer-widget -->
+
+
+					<!-- footer-widget -->				
+					<div class="col-md-3 col-sm-6">
+						<div class="footer-widget contact-widget">
+							<a href="products.aspx"><h1><span>OSPS</span> Products</h1></a>
+							<p>Big or small, your pet depends on you for his/her complete lifetime care. Having a 
+                                clear budget plan for your pet can help reduce anxiety and avoid frustration during 
+                                times of need or emergency. 
+                                <br /><a href="#">Products</a>
+							</p>
+						</div>
+					</div><!-- footer-widget -->
+
+					<!-- footer-widget -->				
+					<div class="col-md-3 col-sm-6">
+						<div class="footer-widget twitter-widget">
+							<a href="checklist.aspx"><h1><span>Pet</span> Calendar</h1></a>
+							<%--<p><i class="fa fa-twitter"></i>about check list</p>--%>
+							<p>The OSPS Calendar lets you track your dog's health with ease. 
+                                You can keep track of vet appointments, medications, allergies 
+                                and food preferences for each of your pets.<br /><a href="#">Calendar</a></p>
+                                              
+                                
+							</p>
+						</div>
+					</div><!-- footer-widget -->
+
+					<!-- footer-widget -->				
+					<div class="col-md-3 col-sm-6">
+						<div class="footer-widget instagram-widget">
+							<a href="vet.aspx"><h1><span>Book Vet </span> Appointment</h1></a>
+                           <%-- <p><i class="fa fa-map-marker"></i><strong>Address: </strong>102580 Cloud Libra L <br>YP. HYD BANGLORE</p>--%>
+							
+                            <p>
+                            Here are the vetenarian hospital information in map. you can find the closest vetenarian from your place. 
+                            <br /><br /><a href="#">Vet Page</a>
+                            </p>					
+						</div>
+					</div><!-- footer-widget -->
+				</div>
+			</div>
+		</div><!-- footer-widget-wrapper -->
+
+		<!-- footer-bottom -->
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">				
+					<div class="col-sm-6">
+						<ul class="footer-menu list-inline">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Products</a></li>
+							<li><a href="#">Checklist</a></li>
+							<li><a href="#">Checkout</a></li>
+
+						</ul>
+					</div>
+
+					<div class="col-sm-6">
+						<div class="copy-right text-right">
+							<p>&copy; Copyright <strong>OSPS - One Stop Pet Shop</strong> by <a href="http://www.aspxtemplates.com"></a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- footer-bottom -->
+	</footer>
+    <!--/#footer-->
+    <!-- Script -->
+    <script src="../js/jquery.js" type="text/javascript"></script>
+    <script src="../js/bootstrap.js" type="text/javascript"></script>
+
+    </form>
+</body>
+</html>
